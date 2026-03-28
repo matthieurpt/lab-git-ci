@@ -14,3 +14,4 @@
         if: always()
         with:
           files: target/**/*.xml
+          
