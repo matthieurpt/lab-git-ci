@@ -18,7 +18,7 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
 
-      # 3. Mettre à jour Upload Artifact (L'erreur venait d'ici)
+      # Publie les fichiers présents dans le dossier target dans un build artifact
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
         with:
